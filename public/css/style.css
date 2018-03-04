@@ -1,0 +1,42 @@
+body{
+  background-color:#442D4B;
+    color: #ffffff;
+}
+
+.fleft {
+  float: left;
+}
+
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.details {
+    width: 180px;
+}
+
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
